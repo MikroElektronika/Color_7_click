@@ -1,0 +1,21 @@
+0	1	mikrocAVR.exe -MSF -DBG -pATMEGA32 -DL -SSA -O11111114 -fo8 -BOOTSZ2048 -BOOTOP0 -N"D:\Clicks_git\Color_7_Click\SW\example\c\AVR\Click_Color7_AVR.mcpav" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\Uses\lte64kw\" -SP"D:\Clicks_git\Color_7_Click\SW\example\c\AVR\" -SP"D:\Clicks_git\Color_7_Click\SW\library\HAL\" -SP"D:\Clicks_git\Color_7_Click\SW\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\Uses\lte64kw\" -IP"D:\Clicks_git\Color_7_Click\SW\example\c\AVR\" -IP"D:\Clicks_git\Color_7_Click\SW\library\" -IP"D:\Clicks_git\Color_7_Click\SW\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\Packages\mikroBUS Board Definition API\Uses\" "Click_Color7_AVR.c" "__color7_Driver.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_TWI.mcl" "__Lib_UART_d01_ursel.mcl" "easyavr_v7_ATMEGA32.mcl" "Click_Color7.pld"	 
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 122	123	Compiled Successfully	Click_Color7_AVR.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 341	123	Compiled Successfully	__color7_Driver.c
+warning: 295	1512	variable 'sumColor' might not have been initialized	__color7_Driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__color7_Driver.c
+hint: 94	1164	Variable 'tmp' has been eliminated by optimizer	__color7_Driver.c
+hint: 155	1164	Variable 'Luminance_Value' has been eliminated by optimizer	__color7_Driver.c
+hint: 266	1164	Variable 'colorRatio' has been eliminated by optimizer	__color7_Driver.c
+hint: 280	1164	Variable 'Blue_Ratio' has been eliminated by optimizer	__color7_Driver.c
+hint: 282	1164	Variable 'ColorData' has been eliminated by optimizer	__color7_Driver.c
+diagnostics: 0	127	All files Compiled in 94 ms	 
+hint: 0	1144	Used RX (bytes): 31 (97%)   Free RX (bytes): 1 (3%)	Used RX (bytes): 31 (97%)   Free RX (bytes): 1 (3%)
+hint: 0	1144	Static RAM (bytes): 299   Dynamic RAM (bytes): 1749	Static RAM (bytes): 299   Dynamic RAM (bytes): 1749
+hint: 0	1144	Used ROM (bytes): 7926 (28%)  Free ROM (bytes): 20746 (72%)	Used ROM (bytes): 7926 (28%)  Free ROM (bytes): 20746 (72%)
+diagnostics: 0	125	Project Linked Successfully	Click_Color7_AVR.mcpav
+hint: 120	1004	Possible stack overflow: recursion or cross-calling detected.	__Lib_TWI.c
+diagnostics: 0	128	Linked in 63 ms	 
+diagnostics: 0	129	Project 'Click_Color7_AVR.mcpav' completed: 172 ms	 
+diagnostics: 0	103	Finished successfully: 27 apr 2018, 10:16:46	Click_Color7_AVR.mcpav

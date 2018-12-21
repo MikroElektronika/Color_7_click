@@ -1,0 +1,8 @@
+unit Click_Color7_config;
+
+uses Click_Color7_types;
+
+const
+    _COLOR7_I2C_CFG : array[2] of uint32_t = (_I2CM_SPEED_MODE_STANDARD, _I2CM_SWAP_DISABLE); 
+    
+end.
